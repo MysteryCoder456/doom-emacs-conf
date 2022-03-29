@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(menu-bar-mode nil)
- '(package-selected-packages '(elcord treemacs-evil treemacs))
+ '(package-selected-packages '(treemacs-evil treemacs))
  '(show-paren-mode t)
  '(size-indication-mode t)
  '(tool-bar-mode nil))
