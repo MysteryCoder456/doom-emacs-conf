@@ -50,4 +50,5 @@
 ;(unpin! t)
 
 (package! elcord)
+(package! magit)
 
