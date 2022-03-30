@@ -51,4 +51,4 @@
 
 (package! elcord)
 (package! magit)
-
+(package! vterm)
