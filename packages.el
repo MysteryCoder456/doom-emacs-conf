@@ -52,3 +52,4 @@
 (package! elcord)
 (package! magit)
 (package! vterm)
+(package! centaur-tabs)
