@@ -53,3 +53,4 @@
 (package! magit)
 (package! vterm)
 (package! centaur-tabs)
+(package! lsp-jedi)
