@@ -54,3 +54,4 @@
 (package! vterm)
 (package! centaur-tabs)
 (package! lsp-jedi)
+(package! pyvenv)

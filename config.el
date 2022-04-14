@@ -6,8 +6,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
-(setq user-full-name "John Doe"
-      user-mail-address "john@doe.com")
+(setq user-full-name "Rehatbir Singh"
+      user-mail-address "rehatbir.singh@gmail.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
@@ -76,6 +76,7 @@
 ;; they are implemented.
 
 (setq treemacs-width 30)
+(centaur-tabs-mode)
 
 (use-package lsp-jedi
   :ensure t
@@ -83,3 +84,7 @@
   (with-eval-after-load "lsp-mode"
     (add-to-list 'lsp-disabled-clients 'pyls)
     (add-to-list 'lsp-enabled-clients 'jedi)))
+
+(use-package pyvenv
+  :config
+  (pyvenv-mode 1))
