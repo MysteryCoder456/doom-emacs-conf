@@ -85,6 +85,7 @@
     (add-to-list 'lsp-disabled-clients 'pyls)
     (add-to-list 'lsp-enabled-clients 'jedi)))
 
-(use-package pyvenv
-  :config
-  (pyvenv-mode 1))
+(use-package elpy
+  :ensure t
+  :init
+  (elpy-enable))
