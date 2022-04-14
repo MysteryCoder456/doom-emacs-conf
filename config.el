@@ -76,6 +76,7 @@
 ;; they are implemented.
 
 (setq treemacs-width 30)
+(blink-cursor-mode)
 (centaur-tabs-mode)
 
 (use-package lsp-jedi
