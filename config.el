@@ -78,6 +78,7 @@
 (setq treemacs-width 30)
 (blink-cursor-mode)
 (centaur-tabs-mode)
+(elcord-mode)
 
 (use-package lsp-jedi
   :ensure t
