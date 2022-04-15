@@ -53,5 +53,5 @@
 (package! magit)
 (package! vterm)
 (package! centaur-tabs)
-(package! lsp-jedi)
+(package! lsp-pyright)
 (package! elpy)

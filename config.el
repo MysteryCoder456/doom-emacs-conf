@@ -80,12 +80,15 @@
 (centaur-tabs-mode)
 (elcord-mode)
 
-(use-package lsp-jedi
+(use-package lsp-pyright
   :ensure t
+  :hook (python-mode . (lambda ()
+                        (require 'lsp-pyright)
+                        (lsp)))
   :config
   (with-eval-after-load "lsp-mode"
     (add-to-list 'lsp-disabled-clients 'pyls)
-    (add-to-list 'lsp-enabled-clients 'jedi)))
+    (add-to-list 'lsp-enabled-clients 'pyright)))
 
 (use-package elpy
   :ensure t
