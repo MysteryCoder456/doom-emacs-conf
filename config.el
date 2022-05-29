@@ -80,6 +80,9 @@
 (centaur-tabs-mode)
 (elcord-mode)
 
+(global-set-key (kbd "M-]") 'indent-rigidly-right-to-tab-stop)
+(global-set-key (kbd "M-[") 'indent-rigidly-left-to-tab-stop)
+
 (use-package lsp
   :ensure t
   :config
