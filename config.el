@@ -80,7 +80,11 @@
 (centaur-tabs-mode)
 (elcord-mode)
 
-;; (add-to-list 'lsp-enabled-clients 'rust-analyzer)
+(use-package lsp
+  :ensure t
+  :config
+  (with-eval-after-load "lsp-mode"
+    (add-to-list 'lsp-enabled-clients 'rust-analyzer)))
 
 (use-package lsp-pyright
   :ensure t
