@@ -88,8 +88,6 @@
   :config
   (with-eval-after-load "lsp-mode"
     (add-to-list 'lsp-enabled-clients 'rust-analyzer)
-    (add-to-list 'lsp-enabled-clients 'svelte-ls)
-    (add-to-list 'lsp-enabled-clients 'ts-ls)))
 
 (use-package lsp-pyright
   :ensure t
