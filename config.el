@@ -79,7 +79,6 @@
 (blink-cursor-mode)
 (centaur-tabs-mode)
 
-(setq elcord-editor-icon "emacs_material_icon")
 (setq elcord-quiet 't)
 (setq elcord-use-major-mode-as-main-icon 't)
 (elcord-mode)
