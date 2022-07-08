@@ -75,7 +75,7 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(load-theme 'doom-xcode)
+(load-theme 'doom-xcode t)
 (setq treemacs-width 30)
 (blink-cursor-mode)
 (centaur-tabs-mode)
